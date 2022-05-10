@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-color: #172b4d;
+}
+.header {
+  min-height: 14vh;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  border-bottom: 4px solid antiquewhite;
+}
+.navbar img {
+  width: 10%;
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
+.navlist {
+  display: flex;
+}
+.list-items {
+  list-style: none;
+  margin: 30px;
+  padding: 10px;
+}
+
+.navlist a {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  justify-content: center;
+  margin: 80px;
+}
+
+.navlist a:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #172b4d;
+  color: antiquewhite;
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+
+.card-item {
+  margin: 20px;
+}
+
+.our-branches {
+  font-family: "Beau Rivage", cursive;
+  font-weight: bold;
+  font-size: 5rem;
+  color: antiquewhite;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #374e5e;
+}
+.seven_branches {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: rgb(194, 175, 175);
+  margin-bottom: 30px;
+}
+
+.branch_image img {
+  width: 100%;
+  border: 6px solid #fff;
+}
+.card-item {
+  display: grid;
+  margin: 40px;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 20px;
+}
+.branch-name {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #3facfa;
+}
+.details {
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.details ul li {
+  margin: 20px 0;
+}
+.details ul li span {
+  color: #3facfa;
+}
+.details ul li a {
+  text-decoration: none;
+  color: #3facfa;
+}
+
+.branch_image img:hover {
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
+}

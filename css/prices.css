@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-color: #172b4d;
+  color: rgb(232, 224, 224);
+}
+.header {
+  min-height: 14vh;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  border-bottom: 3px solid whitesmoke;
+}
+.navbar img {
+  width: 10%;
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
+.navlist {
+  display: flex;
+}
+.list-items {
+  list-style: none;
+  margin: 30px;
+  padding: 10px;
+}
+
+.navlist a {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.navlist a:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #172b4d;
+  color: antiquewhite;
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+
+.card {
+  margin: 75px 20px;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+.card-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.upper-card-holder {
+  display: flex;
+  width: 70vw;
+  margin: auto;
+}
+
+.div_img img {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.card-item-heading {
+  text-align: center;
+  margin: 30px;
+  color: rgb(238, 196, 154);
+  font-size: 2.5rem;
+}
+
+.card-item-para {
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.btn:hover {
+  border: 3px solid rgb(232, 224, 224);
+  background-color: #172b4d;
+  color: rgb(232, 224, 224);
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.price_heading {
+  font-size: 4rem;
+  color: antiquewhite;
+  text-align: center;
+  margin: 7rem;
+  font-family: "Beau Rivage", cursive;
+  border-bottom-style: solid;
+
+}
+
+.actual_price{
+  margin: 7% 0;
+}
+

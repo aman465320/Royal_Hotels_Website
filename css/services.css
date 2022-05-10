@@ -1,0 +1,101 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #172b4d;
+  color: antiquewhite;
+}
+
+
+.header {
+  min-height: 14vh;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  border-bottom: 4px solid antiquewhite;
+}
+.navbar img {
+  width: 10%;
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
+.navlist {
+  display: flex;
+}
+.list-items {
+  list-style: none;
+  margin: 30px;
+  padding: 10px;
+}
+
+.navlist a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navlist a:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #172b4d;
+  color: antiquewhite;
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+
+
+
+.services_heading {
+  font-weight: bold;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Beau Rivage", cursive;
+  color: antiquewhite;
+  /* height: 10vh; */
+  border-bottom: 2px solid #172b4d;
+  margin: 60px auto;
+}
+
+.service {
+  display: grid;
+  width: 80vw;
+  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.service_item:hover {
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
+  box-shadow: 1px 1px #888888;
+}
+.service_item > h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.service_item > p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.outer-service{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}

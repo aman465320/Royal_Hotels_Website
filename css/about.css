@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+ background-color:  #172b4d;
+}
+.header {
+  min-height: 14vh;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  border-bottom: 4px solid antiquewhite;
+}
+.navbar img {
+  width: 10%;
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
+.navlist {
+  display: flex;
+}
+.list-items {
+  list-style: none;
+  margin: 30px;
+  padding: 10px;
+}
+
+.navlist a {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.navlist a:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #172b4d;
+  color: antiquewhite;
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+.about_heading {
+  font-family: "Beau Rivage", cursive;font-family: "Beau Rivage", cursive;
+  color: #181717;
+  font-size: 68px;
+  color: antiquewhite;
+  margin-bottom: 40px;
+}
+.about_us {
+  font-size: 1.2rem;
+  margin: 15px;
+  color: #c1ccd4;
+}
+.about_us_content {
+  /* background-color: #333;; */
+  display: flex;
+  width: 70%;
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+}
+.upper_cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  margin-bottom: 120px;
+}
+.cards{
+    display: grid;
+    width: 80vw;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+}
+
+.div_img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upper_cards{
+  margin : 200px 40px 40px 40px;
+}
+.div_img img{
+  border-radius: 50%;
+  width: 80%;
+  margin: 10px;
+  border:  6px solid #fff;
+}
+
+.div_img:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.card-item-heading{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.7rem;
+  margin: 20px 0;
+  color: white;
+}
+
+.card-item-para{
+  color: rgb(185, 179, 179);
+  line-height: 2em;
+}
+
+.spans{
+  color: #3FACFA;
+}
+
